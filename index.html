@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsha-Official Site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/391c242a29.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logoo.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="mypp">
+                <img src="images/mypp.jpeg" class="prof" alt="my_photo">
+
+            </div>
+            <div class="main_text">
+                <h1>Hi ! I'm Adarsha </h1>
+                <div class="wrapper">
+                <div class="static-txt">A passionate</div>
+                <ul class="dynamic-txt">
+                    <li><span>Developer.</span></li>
+                    <li><span>Learner..</span></li>
+                    <li><span>Designer.</span></li>
+                    <li><span>Freelancer</span></li>
+                    
+                </ul>
+            </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- ------------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpg" alt="about_img" class="About_me">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Hey everyone. I'm Adarsha, a CS enthusiast and a passionate learner. I am a 19 years old, learning web development and doing some 3d stuffs in blender as my hobby. I love playing around with different tools and do some magics using them. Iam a good observer as well as learner. I currently study Electronics Engineering as Paschimanchal Campus Pokhara. I have a good expertise in softwares like blender, Photoshop, Illustrator and languages like HTML5, CSS3 and JavaScript. I'm expanding my knowledge and learning other languages like Python too. I am a aspiring web-developer and working passionately in this field.  
+                        </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web-Development</span><br>
+                                HTML,CSS,JavaScript</li>
+                            <li><span> 3D designing </span><br>Blender 3d</li>
+                            <li><span>Graphics Design</span><br>Photoshop,Illustrator</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022-current</span><br>
+                                Persuing Electronics Engineering at Paschimanchal Campus,Pokhara Nepal</li>
+                            <li><span> 2020-2022 </span><br>Highschool Degree from Orchid Science College</li>
+                            <li><span>2019/20</span><br>SEE passout from SOS Hermann Gmeiner School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------Projects------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <!-- <p class="small-info">-Some projects created using Blender3d</p> -->
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work_1.jpg">
+                    <div class="layer">
+                        <h3>Magical Sword</h3>
+                        <p>3d environment created using blender.</p>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work_2.jpg">
+                    <div class="layer">
+                        <h3>Small Robot</h3>
+                        <p>Created using blender.</p>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work_3.jpg">
+                    <div class="layer">
+                        <h3>Product Design</h3>
+                        <p>Product Design-Coke bottle for a client.</p>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work_5.jpg">
+                    <div class="layer">
+                        <h3>3d Apples</h3>
+                        <p>Created using blender.</p>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work_7.jpg">
+                    <div class="layer">
+                        <h3>Flying Plane</h3>
+                        <p>3d environment created using blender.</p>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work_8.jpg">
+                    <div class="layer">
+                        <h3>3d Colony</h3>
+                        <p>low-poly modelling using blender.</p>
+
+                    </div>
+                </div>
+                
+            </div>
+            <a href="https://www.artstation.com/adneupane" target="_blank" class="btn">See More</a>
+        </div>
+
+    </div>
+
+    <!-- ---------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-house"></i>Bharatpur-10,Chitwan,Nepal</p>
+                    <p><i class="fa-solid fa-envelope"></i> zmailadarsha@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 977-9866406531</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/adneupane25/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/NeupaneAd"target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.artstation.com/adneupane" target="_blank"><i class="fa-brands fa-artstation"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100087956172990" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/cv_sample.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Enter your Email" required>
+                        <textarea name="message" rows="6" placeholder="I'm working on this so please email me directly."></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>All rights reserved.Copyright &copy Ad. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-250px";
+        }
+    </script>
+</body>
+
+</html>
