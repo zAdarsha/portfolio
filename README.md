@@ -1,3 +1,3 @@
 # portfolio
 Portfolio website of me
-adarshaneupane.com.np
+www.adarshaneupane.com.np
